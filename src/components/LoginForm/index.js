@@ -26,7 +26,7 @@ class LoginForm extends Component {
     return (
       <form className={classes.form} onSubmit={onSubmit}>
         <FormControl margin="normal" required fullWidth>
-          <InputLabel htmlFor="email">Email Address</InputLabel>
+          <InputLabel htmlFor="email">Email XXXXXXXX Address</InputLabel>
           <Input
             id="email"
             value={email}
